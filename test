@@ -1,0 +1,7 @@
+
+class data:
+
+	today = datetime.now()
+	clock = today.strftime("%H%M%S")
+    
+	runtime = clock
